@@ -30,5 +30,5 @@ export const setGreeting = (element) => {
     }
 
     update();
-    setInterval(update, 3600000);
+    requestAnimationFrame(update);
 }

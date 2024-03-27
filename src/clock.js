@@ -15,7 +15,7 @@ export const forClock = (element) => {
     };
 
     updateClock();
-    setInterval(updateClock, 1000);
+    requestAnimationFrame(updateClock);
 }
 
 
@@ -37,5 +37,5 @@ export const timeIsRunning = (percent) => {
         }
     }
     update();
-    setInterval(update, 60000);
+    requestAnimationFrame(update);
 }
