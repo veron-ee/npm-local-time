@@ -9,6 +9,7 @@
   },
   "author": "Veronika Gorbatenko (veron-ee)",
   "license": "MIT",
+  "homepage": "https://github.com/veron-ee/npm-local-time.git",
   "dependencies": {
     "moment-timezone": "^0.5.45",
     "start": "^5.1.0"
