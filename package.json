@@ -1,0 +1,19 @@
+{
+  "name": "npm-local-time",
+  "version": "1.0.0",
+  "description": "A small personal npm project just to test out",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Veronika Gorbatenko (veron-ee)",
+  "license": "MIT",
+  "dependencies": {
+    "moment-timezone": "^0.5.45",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
