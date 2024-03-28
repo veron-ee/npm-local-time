@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setGreeting(greeting); // greeting for night morning day and evening
   forClock(clock); // clockie clock, need to find out how to make it a proper clock not text
-  timeIsRunning(percent); // future scary reminder of how quickly time passes
+  timeIsRunning(percent); // future scary reminder of how quickly time passes 
 
 })
